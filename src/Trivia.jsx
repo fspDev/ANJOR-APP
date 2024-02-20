@@ -29,13 +29,13 @@ function Trivia() {
     const respuestaCorrecta = preguntas[preguntaActual].respuestaCorrecta;
     if (respuesta === respuestaCorrecta) {
       if (preguntaActual === preguntas.length - 1) {
-        setMensaje('¡Felicidades, ganaste!');
+        setMensaje('¡FELICIDADES, GANASTE!');
       } else {
         setPreguntaActual(preguntaActual + 1);
         setMensaje('');
       }
     } else {
-      setMensaje('¡Gracias por participar!');
+      setMensaje('¡GRACIAS POR PARTICIPAR!');
     }
   };
 
